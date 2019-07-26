@@ -1,0 +1,541 @@
+/*stert upper bar*/
+.upper-bar
+{
+    background: #8c80ea;
+    color: #EEE;
+    padding: 10px;
+}
+.upper-bar button
+{
+    background: green;  
+    border:1px solid #ea4343;
+    margin-left: 10px;
+    color: #EEE;
+}
+.upper-bar .col
+{
+    margin-bottom: 5px;
+}
+/* end upper bar */
+/* start navbar */
+.navbar
+{
+    padding: 13px;
+}
+.navbar .navbar-brand
+{
+        margin-left: 40px;
+
+}
+.navbar .navbar-brand >span
+{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.navbar .navbar-brand span:first-child
+{
+    color:#5454f5;
+}
+.navbar .navbar-brand span:last-child
+{
+    color:#ea4343;
+}
+.navbar .navbar-nav  li .nav-link
+{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar .navbar-nav .active .nav-link
+{
+    color:#ea4343;
+}
+
+/*end navbar*/
+/* start slider */
+.slider
+{
+    background: #eee;
+    height: 100vh;
+}
+.carousel-item
+{
+   background-size: cover;
+}
+.carousel-one
+{
+    background-image:url("../img/1.jpg"); 
+}
+.carousel-two
+{
+    background-image:url("../img/2.jpg"); 
+}
+.carousel-three
+{
+    background-image:url("../img/3.jpg"); 
+}
+/* end slider */
+/* start sectgon feeatures */
+.features .box
+{
+    padding-top: 40px;
+}
+.features .box i
+{
+    background: red;
+    padding: 8px;
+    margin-bottom: 15px;
+    color: white;
+}
+.features .box h1{
+    color: #342f4e;
+    font-size: 26px;
+}
+.features .box p
+{
+    color: #9e7a4a;
+    font-size: 14px;
+}
+
+/* end section features */
+/* start section company */
+.company
+{
+    background: #212322;
+    padding: 17px;
+    margin: 10px 0px;
+}
+.company h1
+{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.company p
+{
+    color: #9081ad;
+    font-size: 18px;
+}
+.company h4
+{
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: brown;
+}
+.company button
+{
+    margin-top: 9px;
+}
+/* end sectiion company */
+/* start section work */
+.work h1
+{
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    margin-top: 27px;
+}
+.work p
+{
+    line-height: 33px;
+    color: #505656;
+    margin-bottom: 27px;
+}
+.work ul
+{
+ 
+}
+
+.work ul  li
+{
+    border: 3px solid #6e926e;
+    text-align: center;
+    padding: 10px 15px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.work ul li.active,.work ul li:hover
+{
+    background: red;
+}
+.work ul li:hover
+{
+    transition: all .5s ease-in;
+}
+@media (min-width: 1200px)
+{
+.work .row .col-lg{
+    width: 142.5px;
+    max-width: 250px;
+}
+.post .col-md-4
+{
+    max-width: 31.3333%;
+}
+.post .row .card:nth-child(2)
+{
+ margin: 0px 14px;
+ margin-bottom: 20px;
+}
+}
+@media (min-width: 991px)
+{
+.work .row .col-lg{
+    width: 120px;
+    max-width: 250px;
+}
+.post .row .card:nth-child(2)
+{
+ margin: 0px 14px;
+ margin-bottom: 20px;
+}
+.post .col-md-4
+{
+    max-width: 31.3333%;
+}
+.price .card
+  {
+    max-width: 300px;
+    margin: 5px auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width:991px)
+{
+  .work ul li
+  {
+
+      
+  }
+  .choose .info:last-child
+{
+    margin: 15px 30px;
+}
+  .price .card
+  {
+    max-width: 350px;
+    margin: 5px auto;
+  }
+  .price .row .card:nth-child(2)
+{
+ top:0px !important;
+}
+.post .row .card:nth-child(2)
+{
+    margin: 15px 30px;
+}
+}
+  .post .col-md-4
+{
+    
+}
+
+}
+@media (min-width: 576px) and (max-width:767px)
+{
+    .price .card
+    {
+        max-width: 356px;
+        margin: 5px auto;
+    }
+    .price .row .card:nth-child(2)
+{
+    top: 0px !important;
+}
+.choose .info:last-child
+{
+    background: #716c71;
+    padding: 5px 10px 5px 30px !important;
+    margin: 15px 30px;
+}
+}
+@media (max-width:575px)
+{
+    .price .card
+    {
+        margin: 5px auto;
+        max-width: 340px;
+}
+.choose .info:last-child
+{
+    background: #716c71;
+    padding: 5px 10px 5px 30px !important;
+    margin: 15px 30px;
+}
+.price .row .card:nth-child(2)
+{
+    top: 0px !important;
+}
+}
+.work .row img
+{
+    transition: all .5s ease-in;
+}
+/* end section work */
+/* start section post */
+.post
+{
+    margin: 50px 0px;
+}
+.post .lead
+{
+    margin-bottom: 55px;
+}
+.post .card .card-link
+{
+    color: red;
+    margin-bottom: 10px;
+}
+.post .row >.card
+{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.post .card p
+{
+    color: #a8b2bb;
+    font-size: 15px;
+}
+.post .card .card-title
+{
+    color: #a8b2bb;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* end section post */
+/* start testmonails */
+.test
+{
+    background-image:url("https://www.ddiq.com/wp-content/uploads/2016/02/Financial-Institutions-Background.jpg");
+    height:530px; 
+    position: relative;
+    background-size:cover; 
+}
+.test .lay
+{
+width: 100%;
+height: 100%;
+background-color: black;
+position: absolute;
+top: 0;
+left: 0;
+opacity: .7;
+}
+.carousel
+{
+    height: 530px;
+}
+.carousel-indicators
+{
+    padding-top: 20px;
+}
+.carousel-item .item
+{
+    padding-top: 200px;
+}
+.carousel-inner
+{
+       height: 530px
+}
+.carousel-inner img
+{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin: 0px auto;
+}
+.carousel-inner h2
+{
+    color: #8c8c8c;
+}
+.carousel-inner h5
+{
+    color: #8c8c8c;
+    margin-left: 5px;
+}
+.carousel-inner p
+{
+    color: #8c8c8c;
+    margin:0% 25%;
+}
+/* end testmonails */
+/* start price */
+.price
+{
+    margin-top: 80px;
+}
+.price .card
+{
+    background: #eef1f3; 
+  
+}
+.price .list-group-item
+{
+    background: #eef1f3;
+    border: none;
+  
+}
+
+.price h2
+{
+    color: #808888;
+}
+.price .lead
+{
+    color: #c5728d;
+    margin-bottom: 29px;
+}
+.price .row h4
+{
+    color: #716c71;
+}
+.price .row p
+{
+background: #8d9696;
+padding: 10px;
+}
+.price .row p span
+{
+    font-size: 14px;
+
+}
+.price .row .card:nth-child(2)
+{
+    position: relative;
+    top: -20px;
+}
+.price .row .card:nth-child(2) p
+{
+    background: green;
+
+}
+/* end price */
+/* start choose */
+.choose
+{
+    margin: 50px 0px;
+}
+.choose .info img
+{
+    width: 100%;
+    height: 400px;
+}
+.choose .info:last-child
+{
+    background: #716c71;
+    padding: 90px 60px;
+}
+.choose .info h2
+{
+    color: white;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.choose .info p
+{
+    color: antiquewhite;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+.choose .info button
+{
+    background: blueviolet;
+    color: black;
+    margin: 11px 40%;
+}
+/* end choose */
+/* start stats */
+.stats .col-sm-6
+{
+ 
+    margin-bottom: 8px;
+  text-align: center
+}
+.stats i
+{
+    margin-left: 20px;
+    color: #6c6cd4;
+
+}
+.stats h1
+{
+    color: #6c6cd4;
+    margin-bottom: 0px;
+}
+.stats span
+{
+    color: red;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: -9px;
+}
+/* end stats */
+/* start contact */
+.contact
+{
+    padding-top: 50px;
+    background: red;
+    padding-bottom: 32px;
+    margin: 24px 0px
+}
+.contact p
+{
+    color: white;
+    text-align: right;
+}
+.contact a
+{
+    display: inline-block;
+    color: white;
+    padding: 4px 15px;
+    text-decoration: none;
+    border: 1px solid greenyellow;
+}
+/* end contact */
+/* start footer */
+.footer
+{
+    margin: 80px 0px;
+}
+.footer span
+{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.footer span:first-child
+{
+    color:#5454f5;
+}
+/* .footer span:last-child
+{
+    color:#ea4343;
+} */
+.footer .col-md-6 a:after
+{
+    font-family:'FontAwesome';
+    content: "\f368";
+}
+.footer .col-md-3 span
+{
+    display: block;
+}
+.footer .col-md-3 span:last-child a
+{
+    color: black;
+}
+/* end footer */
+/* start copy */
+.copy
+{
+    border-top:1px solid black;
+    padding-top: 15px;
+}
+.copy ul
+{
+    margin: 0px 0px;
+}
+.copy li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+/* end copy */
